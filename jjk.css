@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s;
+  user-select: none;
+  cursor: grab;
+  font-family: "Quicksand", sans-serif;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  background: url("ttps://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d2836f18-0a08-463d-a23f-8dced8979c25/dgc2cg5-bbc493f6-0d59-400f-b948-fc86868991a9.jpg/v1/fill/w_1192,h_670,q_70,strp/satoru_gojo_domain_expansion_jujutsu_kaisen_hd_wal_by_gojosatoru991245_dgc2cg5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZDI4MzZmMTgtMGEwOC00NjNkLWEyM2YtOGRjZWQ4OTc5YzI1XC9kZ2MyY2c1LWJiYzQ5M2Y2LTBkNTktNDAwZi1iOTQ4LWZjODY4Njg5OTFhOS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19._ec7oDBNwiXvfyLvTFWe_-aeF6-LCao2T4eLn9i-aYk")
+    #fff;
+  background-size: cover;
+  background-position: center top;
+  overflow: hidden;
+  animation: zoom 60s linear infinite alternate;
+}
+
+@keyframes zoom {
+  0% {
+    background-size: 100%;
+  }
+
+  100% {
+    background-size: 160%;
+  }
+}
+
+.note {
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(62, 9, 118);
+  text-shadow: 0px 0px 4px rgb(145, 21, 183);
+  -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.3);
+}
+.note > .text {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.note > .meowish {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+}
+nav {
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 10vmin;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  max-width: 1200px;
+  padding: 0 5vmin;
+  padding-top: 5vmin;
+}
+.carousel .card {
+  width: 45vmin;
+  height: 55vmin;
+  color: #fff;
+  text-align: center;
+  background: #fff;
+  border: 1vmin solid #fff;
+  cursor: pointer;
+  scale: 0.9;
+}
+
+.carousel .card:hover {
+  scale: 1;
+  border: 1vmin solid #000;
+}
+
+.carousel .card-1 {
+  background: url("jsick.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.carousel .card-2 {
+  background: url("Silluet.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.carousel .card-3 {
+  background: url("cuttie.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.carousel .card-4 {
+  background: url("sweet.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .card-5 {
+  background: url("wow.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .card-6 {
+  background: url("judes.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .card-7 {
+  background: url("lucuu.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .card-8 {
+  background: url("bl.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .card-9 {
+  background: url("mewing.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .card-10 {
+  background: url("bam.jpg");
+  background-size: cover;
+  background-position: center;
+}
